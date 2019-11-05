@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+
+<categorias>
+  
+
+<Categoria CodCat="1" NomCat="Lacteos" />
+<Categoria CodCat="2" NomCat="Granos" />
+<Categoria CodCat="3" NomCat="Carnes" />
+<Categoria CodCat="4" NomCat="Bebidas" />
+<Categoria CodCat="5" NomCat="Aseo" />
+
+
+</categorias>

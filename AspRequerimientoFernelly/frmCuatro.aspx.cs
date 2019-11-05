@@ -27,8 +27,8 @@ namespace AspRequerimientoFernelly
             string newjson = jsonObj.ToString();
             File.WriteAllText(@"C:\Users\usuario\source\repos\AspRequerimientoFernelly\AspRequerimientoFernelly\jsonCategoria.json", newjson);
 
-            object jsonObj1 = JsonConvert.SerializeObject(dato.consultaPro());
-            string newjson1 = jsonObj.ToString();
+            object jsonObj2 = JsonConvert.SerializeObject(dato.consultaPro());
+            string newjson1 = jsonObj2.ToString();
             File.WriteAllText(@"C:\Users\usuario\source\repos\AspRequerimientoFernelly\AspRequerimientoFernelly\jsonProducto.json", newjson1);
             btnCargarTodo.Enabled = true;
 
@@ -54,7 +54,7 @@ namespace AspRequerimientoFernelly
 
             string dato1 = File.ReadAllText(Server.MapPath("jsonProducto.json"));
 
-            DataSet tabla1 = (DataSet)JsonConvert.DeserializeObject(dato, typeof(DataSet));
+            DataSet tabla1 = (DataSet)JsonConvert.DeserializeObject(dato1, typeof(DataSet));
             GridProducto.DataSource= tabla1;
        
            GridProducto.DataBind();

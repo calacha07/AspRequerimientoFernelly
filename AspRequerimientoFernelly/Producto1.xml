@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+
+<producto>
+  
+
+
+<Producto CodProd="1" NomProd="Leche" CodCat="1" />
+<Producto CodProd="2" NomProd="Arroz" CodCat="2" />
+<Producto CodProd="3" NomProd="Queso" CodCat="1" />
+<Producto CodProd="4" NomProd="Pollo" CodCat="3" />
+<Producto CodProd="5" NomProd="Gaseosa" CodCat="4" />
+<Producto CodProd="6" NomProd="Jabón" CodCat="5" />
+<Producto CodProd="7" NomProd="Frijol" CodCat="2" />
+<Producto CodProd="8" NomProd="Crema dental" CodCat="5" />
+<Producto CodProd="9" NomProd="Jamón" CodCat="3" />
+<Producto CodProd="10" NomProd="Tequila" CodCat="4" />
+<Producto CodProd="11" NomProd="Kumis" CodCat="1" />
+  
+  </producto> 

@@ -11,20 +11,20 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
+        <div class="mt-3 d-flex align-content-center justify-content-center align-items-center">
             <ul class="nav nav-tabs" id="navId">
  
             
 
-    <li class="nav-item">
-           <asp:Button ID="Button2" runat="server" Text="Segundo Form" OnClick="Button2_Click" />
+    <li class="nav-item mr-2">
+           <asp:Button ID="Button2" runat="server" Text="Segundo Form" OnClick="Button2_Click"  CssClass="btn btn-info"/>
     </li>
     <li class="nav-item">
-          <asp:Button ID="Button3" runat="server" Text="TercerForm" OnClick="Button3_Click" />
+          <asp:Button ID="Button3" runat="server" Text="TercerForm" OnClick="Button3_Click" CssClass="btn btn-info" />
     </li>
 
-          <li class="nav-item">
-          <asp:Button ID="Button4" runat="server" Text="CuartoForm" OnClick="Button4_Click"  />
+          <li class="nav-item ml-2">
+          <asp:Button ID="Button4" runat="server" Text="CuartoForm" OnClick="Button4_Click" CssClass="btn btn-info"  />
     </li>
 </ul>
 
@@ -49,9 +49,14 @@
 
         <center>
 
-                <asp:GridView ID="GridProducto" runat="server"></asp:GridView>
-                <asp:DropDownList ID="lstCategoria" runat="server"></asp:DropDownList> <br />
-               <asp:Button ID="btnCargarTodo" runat="server" Text="Cargar" OnClick="btnCargarTodo_Click"></asp:Button>
+                <h1>CARGA CON XML</h1>
+                <asp:GridView ID="GridProducto" runat="server" CssClass="table  table-hover"></asp:GridView>
+                <asp:DropDownList ID="lstCategoria" runat="server" CssClass="mt-2"></asp:DropDownList> <br />
+               <asp:Button ID="btnCargarTodo" runat="server" Text="Cargar" OnClick="btnCargarTodo_Click" CssClass="btn btn-info mt-2"></asp:Button>
+     
+
+
+
 
 
 

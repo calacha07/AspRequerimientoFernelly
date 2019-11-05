@@ -1,14 +1,23 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-
-
-<categorias>
-  
-
-<Categoria CodCat="1" NomCat="Lacteos" />
-<Categoria CodCat="2" NomCat="Granos" />
-<Categoria CodCat="3" NomCat="Carnes" />
-<Categoria CodCat="4" NomCat="Bebidas" />
-<Categoria CodCat="5" NomCat="Aseo" />
-
-
-</categorias>
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Categoria>
+    <CodCat>1</CodCat>
+    <NomCat>Lacteos</NomCat>
+  </Categoria>
+  <Categoria>
+    <CodCat>2</CodCat>
+    <NomCat>Granos</NomCat>
+  </Categoria>
+  <Categoria>
+    <CodCat>3</CodCat>
+    <NomCat>Carnes</NomCat>
+  </Categoria>
+  <Categoria>
+    <CodCat>4</CodCat>
+    <NomCat>Bebidas</NomCat>
+  </Categoria>
+  <Categoria>
+    <CodCat>5</CodCat>
+    <NomCat>Aseo</NomCat>
+  </Categoria>
+</NewDataSet>

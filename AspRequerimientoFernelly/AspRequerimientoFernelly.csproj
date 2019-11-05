@@ -70,12 +70,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="categoria.xml" />
+    <Content Include="categoria1.xml" />
     <Content Include="frmCuatro.aspx" />
     <Content Include="frmDos.aspx" />
     <Content Include="frmTres.aspx" />
     <Content Include="Index.aspx" />
-    <Content Include="Producto.xml" />
+    <Content Include="Producto1.xml" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
